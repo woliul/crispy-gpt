@@ -35,10 +35,10 @@ def html_to_markdown(html):
 
 # Example usage
 if __name__ == "__main__":
-    with open("testhtml.html", "r", encoding="utf-8") as f:
+    with open("test/Input/testhtml.html", "r", encoding="utf-8") as f:
         html_content = f.read()
 
     markdown = html_to_markdown(html_content)
 
-    with open("testmdoutput.md", "w", encoding="utf-8") as f:
+    with open("test/Output/testmdoutput.md", "w", encoding="utf-8") as f:
         f.write(markdown)

@@ -47,7 +47,7 @@ def markdown_to_pdf(markdown_file, output_pdf):
         print(f"Error during PDF generation: {e}")
 
 # Provide the path to your Markdown file and desired output PDF file name
-markdown_file = 'Python180.md'  # Your Markdown file
+markdown_file = 'test/Input/Python180.md'  # Your Markdown file
 output_pdf = 'output5.pdf'  # Desired output PDF name
 
 markdown_to_pdf(markdown_file, output_pdf)

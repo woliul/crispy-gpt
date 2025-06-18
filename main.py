@@ -44,7 +44,7 @@ def markdown_to_pdf(markdown_file, output_pdf):
     print(f"PDF saved as {output_pdf}")
 
 # Provide the path to your Markdown file and desired output PDF file name
-markdown_file = 'Python180.md'
+markdown_file = 'test/Input/Python180.md'
 output_pdf = 'Python180.pdf'
 
 markdown_to_pdf(markdown_file, output_pdf)

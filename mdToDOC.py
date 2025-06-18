@@ -81,7 +81,7 @@ def convert_markdown(markdown_file, output_pdf, output_docx):
 
 
 # File paths
-markdown_file = 'test.md'
+markdown_file = 'test/Input/test.md'
 output_pdf = 'testoutput3.pdf'
 output_docx = 'testoutput3.docx'
 
